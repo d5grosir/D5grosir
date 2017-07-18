@@ -1,0 +1,50 @@
+<frameset cols="25%,75%">
+   <frame src="informasi.html" DHITA GROSIR/>
+   <frame src="http://dhitagrosir.situsbelanja.com/?reg=admin" />
+</frameset>
+
+<iframe src="http://dhitagrosir.situsbelanja.com/" width="100%" height="400">
+</iframe>
+
+
+ATTRIBUTE	VALUE	DESCRIPTION	DTD
+align	left
+right
+top
+middle
+bottom	Deprecated. Use styles instead.
+Specifies the alignment of an iframe according to surrounding elements	TF
+frameborder	1
+0
+
+Specifies whether or not to display a border around an
+iframe	TF
+height	pixels
+%
+
+Specifies the height of an iframe	TF
+longdesc	URL	Specifies a page that contains a long description of the
+content of an iframe	TF
+marginheight	pixels	Specifies the top and bottom margins of an iframe	TF
+marginwidth	pixels	Specifies the left and right margins of an iframe	TF
+name	name	Specifies the name of an iframe	TF
+scrolling	yes
+no
+auto	Specifies whether or not to display scrollbars in an iframe	TF
+src	URL	Specifies the URL of the document to show in an iframe	TF
+width	pixels
+%	Specifies the width of an iframe	TF 
+Saya jelaskan dulu ya. Baris pertama adalah tag frameset yang dilengkapi atribut cols. Atribut ini untuk mengatur lebar kolom-kolom frame nanti. Dalam contoh diatas saya buat kolom kiri 25% dan kolom kanan 75%.
+
+Setelah terdefinisi, kita tinggal menunjukkan file-file apa saja yang ingin kita masukkan dalam frame. Baris kedua berguna memasukkan file informasi.html ke dalam frame kiri. Kemudian di baris ketiga kita definisikan frame sebelah kanan berisi URL affiliasi dari cafebisnis.
+
+Sampai sini, jika anda membuka file frameset.html tersebut, maka akan muncul error di kolom kiri dan web cafebisnis di kolom kanan. Kenapa error? Karena kita belum membuat file informasi.html kan? Jadi, mari kita buat sekarang.
+
+File informasi.html bisa berisi apa saja, misalnya informasi dari anda perihal web cafebisnis. Yuk kita isi file informasi.html dengan artikel singkat berikut:
+
+<p>Di sebelah kanan halaman ini adalah web cafebisnis, 
+tempat dimana kita bisa belajar banyak soal WordPress
+dan bagaimana menghasilkan uang menggunakan blog</p>
+<p>Untuk mendaftar, silahkan klik menu registrasi
+dan ikuti saja petunjuknya</p>
+Nah, selesai deh. Sekarang bisa anda cek frameset.html dan akan tampak isi file informasi.html berada di kolom kiri dan web cafebisnis di kolom kanan. Untuk tutorial iframe, kita bahas di artikel mendatang aja ya? Oke, sampai jumpa lagi
